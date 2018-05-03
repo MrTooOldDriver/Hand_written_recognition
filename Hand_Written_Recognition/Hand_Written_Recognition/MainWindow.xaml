@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <ListBox x:Name="Listbox1" HorizontalAlignment="Left" Height="280" Margin="25,21,0,0" VerticalAlignment="Top" Width="468" SelectionChanged="ListBox_SelectionChanged"/>
+        <ListView x:Name="DebugLog" HorizontalAlignment="Left" Height="188" Margin="10,10,0,0" VerticalAlignment="Top" Width="390" SelectionChanged="ListView_SelectionChanged">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
     </Grid>
 </Window>
