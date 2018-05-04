@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="800">
     <Grid>
-        <Button x:Name="StartButton" Content="start" HorizontalAlignment="Left" Margin="223,157,0,0" VerticalAlignment="Top" Width="332" Height="111" Click="StartButton_Click"/>
+        <Button x:Name="StartButton" Content="start" HorizontalAlignment="Left" Margin="56,169,0,0" VerticalAlignment="Top" Width="332" Height="111" Click="StartButton_Click"/>
+        <Image x:Name="imagebox" HorizontalAlignment="Left" Height="168" Margin="444,104,0,0" VerticalAlignment="Top" Width="224"/>
 
     </Grid>
 </Window>

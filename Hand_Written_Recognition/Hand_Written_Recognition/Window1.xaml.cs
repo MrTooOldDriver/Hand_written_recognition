@@ -27,7 +27,8 @@ namespace Hand_Written_Recognition
         private void StartButton_Click(object sender, RoutedEventArgs e)
         {
             DatabaseReader databaseReader = new DatabaseReader();
-            MessageBox.Show(databaseReader.Database());
+            //MessageBox.Show(databaseReader.Database());
+            imagebox.Source= databaseReader.Image();
         }
     }
 }
