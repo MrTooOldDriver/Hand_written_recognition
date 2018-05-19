@@ -23,8 +23,23 @@ namespace Hand_Written_Recognition
         public MainWindow()
         {
             InitializeComponent();
-            DatabaseReader database = new DatabaseReader();
-            database.Database();
+            Window1 window = new Window1();
+            window.Show();
+        }
+
+        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
+
+     
+
+
+
+    
+
+    
+
+
 }
