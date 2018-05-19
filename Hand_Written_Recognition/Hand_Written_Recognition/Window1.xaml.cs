@@ -29,55 +29,62 @@ namespace Hand_Written_Recognition
 
         private void StartButton_Click(object sender, RoutedEventArgs e)
         {
-            DatabaseReader databaseReader = new DatabaseReader();
-            Drawing drawing = new Drawing();
-            //MessageBox.Show(databaseReader.Database());
+            DatabaseReader databaseReader = new DatabaseReader(); //Object Database reader
+            Drawing drawing = new Drawing(); //For future 
+            //MessageBox.Show(databaseReader.Database()); //debug function
 
-            byte[] vs = databaseReader.pixInfrom();
+            byte[] vs = databaseReader.pixInfrom(); //Get data from database
 
-            Drawit(vs);
-
-            
-           
-
+            Drawit(vs); //draw it out
         }
 
         
 
-        private void Drawit(byte[] vs)
+        private void Drawit(byte[] vs) //Draw out the image from the MINST database
         {
-            //int mag = 1;
-            //byte pixInfo= 0;
-            //var brush = new SolidColorBrush(Color.FromRgb(pixInfo, pixInfo, pixInfo));
-            Can.Margin = new Thickness(0, 0, 0, 0);
-            //Rectangle r = new Rectangle();
-            for (int count=0; count< vs.Length; count++)
+            int mag = 10; //Scale Factor of image
+            Can.Margin = new Thickness(0, 0, 0, 0); //Create new canvas object
+            
+            for (int count=0; count< vs.Length; count++) //display each pixs
             {
 
                 Rectangle r = new Rectangle();
-                r.Fill = new SolidColorBrush(Color.FromRgb(vs[count], vs[count], vs[count]));
-                r.Stroke = new SolidColorBrush(Colors.Red);
-                r.Width = 8;
-                r.Height = 8;
-                double[] db = CoodCheck(count);
+                byte pixinforReverse = Convert.ToByte(255 - vs[count]);//RGB convert
+                r.Fill = new SolidColorBrush(Color.FromRgb(pixinforReverse, pixinforReverse, pixinforReverse));
+
+                //Test Function
+                //r.Stroke = new SolidColorBrush(Colors.IndianRed);
+                //r.StrokeDashCap = PenLineCap.Square;
+                //Test Function
+
+                r.Width = mag;
+                r.Height = mag;
+
+                double[] db = CoodCheck(count,mag);//coordinate Check and calculation of picture
+
                 double x = db[0];
                 double y = db[1];
+
                 r.SetValue(Canvas.LeftProperty, x);
                 r.SetValue(Canvas.TopProperty, y);
-                Can.Children.Add(r);
-                //MessageBox.Show("run" + count);
+                Can.Children.Add(r);//draw picture
+
+                //MessageBox.Show("run" + count); //debug funciton
             }
    
         }
 
-        public double[] CoodCheck(int NumberOfPix)
+        public double[] CoodCheck(int NumberOfPix,int mag) 
         {
+            //Coordinate starting point
             double x = 50;
             double y = 50;
 
-            x = x + ((NumberOfPix % 28) * (8));
-            y = y + ((NumberOfPix / 28)*  (8));
-            //MessageBox.Show("x=" + x + ",y=" + y);
+            x = x + ((NumberOfPix % 28) * (mag));
+            y = y + ((NumberOfPix / 28)*  (mag));
+
+            //MessageBox.Show("x=" + x + ",y=" + y); //debug function
+
             double[] re = new double[2];
             re[0] = x;
             re[1] = y;

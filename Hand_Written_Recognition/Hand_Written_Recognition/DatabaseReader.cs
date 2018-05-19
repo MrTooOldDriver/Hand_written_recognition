@@ -27,7 +27,6 @@ namespace Hand_Written_Recognition
             BinaryReader binaryReader = new BinaryReader(fileStream);
             PixelFormat pixelFormat = new PixelFormat();
             pixelFormat = PixelFormats.Bgr32; 
-            //BitmapPalette bitmapPalette = new BitmapPalette(colors);
 
             List<Color> colors = new List<Color>();
             colors.Add(Colors.Black);
@@ -40,8 +39,6 @@ namespace Hand_Written_Recognition
             int rowNumber = binaryReader.ReadInt32();
             int colNumber = binaryReader.ReadInt32();
  
-
-            //byte[] image = binaryReader.ReadBytes(50);
             magNumber = ConvertBytes(magNumber);
             imgNumber = ConvertBytes(imgNumber);
             rowNumber = ConvertBytes(rowNumber);
@@ -51,11 +48,8 @@ namespace Hand_Written_Recognition
 
             string r = "mag: " + magNumber.ToString() + "# img:" + imgNumber.ToString() + "# row:" + rowNumber.ToString() + "# col:" + colNumber.ToString() +"# pixnumber:" + pixNumber.ToString();
 
-            //int pixNumber = rowNumber * colNumber;
-
             byte[] pixByte = new byte[pixNumber];
             
-
             for (int counter=0; counter < pixNumber; counter++)
             {
                 pixByte[counter] = binaryReader.ReadByte();
