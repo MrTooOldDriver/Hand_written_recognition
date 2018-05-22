@@ -34,8 +34,13 @@ namespace Hand_Written_Recognition
             //MessageBox.Show(databaseReader.Database()); //debug function
 
             byte[] vs = databaseReader.pixInfrom(); //Get data from database
-
             Drawit(vs); //draw it out
+
+            MainWindow mainWindow = new MainWindow();
+
+            mainWindow.ListBox.ItemsSource = vs;
+            mainWindow.Show();
+
         }
 
         

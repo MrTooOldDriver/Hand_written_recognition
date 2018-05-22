@@ -16,7 +16,7 @@ namespace Hand_Written_Recognition
 {
     class Drawing
     {
-        public BitmapSource drawPix(byte[] inputPix)
+        public BitmapSource drawPix(byte[] inputPix) //usless right now
         {
             return null;
         }
