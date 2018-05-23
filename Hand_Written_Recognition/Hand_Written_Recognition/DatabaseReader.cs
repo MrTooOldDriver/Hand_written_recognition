@@ -44,8 +44,8 @@ namespace Hand_Written_Recognition
             int pixNumber = rowNumber * colNumber;
 
             //Test function
-            //string r = "mag: " + magNumber.ToString() + "# img:" + imgNumber.ToString() + "# row:" + rowNumber.ToString() + "# col:" + colNumber.ToString() +"# pixnumber:" + pixNumber.ToString();
-            //MessageBox.Show(r);
+            string r = "mag: " + magNumber.ToString() + "# img:" + imgNumber.ToString() + "# row:" + rowNumber.ToString() + "# col:" + colNumber.ToString() +"# pixnumber:" + pixNumber.ToString();
+            MessageBox.Show(r);
 
 
             byte[] pixByte = new byte[pixNumber];
@@ -56,14 +56,33 @@ namespace Hand_Written_Recognition
                 pixByte[counter] = binaryReader.ReadByte();
             }
 
+            fileStream.Close();
             return pixByte;
 
         }
 
+        public int lableInform(int numberOrder)
+        {
+            string filePath = @"train-labels.idx1-ubyte";
+            FileStream lableStream = new FileStream(filePath, FileMode.Open); //Setup FileStream
+            BinaryReader lableVinaryReader = new BinaryReader(lableStream); //Setup BytereaderStream       
+
+            int magNumber = lableVinaryReader.ReadInt32();
+            int itemNumber = lableVinaryReader.ReadInt32();
+
+            magNumber = ConvertBytes(magNumber);
+            itemNumber = ConvertBytes(itemNumber);
+
+            byte by = lableVinaryReader.ReadByte();
+            MessageBox.Show("magNumber="+magNumber+"# itemNumber=" + itemNumber);
+
+            lableStream.Close();
+            return by;
+        }
       
         public int ConvertBytes(int input)
         {
-            //Reberse Bytes
+            //Reverse Bytes
             byte[] inputByte = BitConverter.GetBytes(input);
             Array.Reverse(inputByte);
             return BitConverter.ToInt32(inputByte, 0);

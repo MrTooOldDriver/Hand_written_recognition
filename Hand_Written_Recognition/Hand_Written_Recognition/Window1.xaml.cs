@@ -41,6 +41,8 @@ namespace Hand_Written_Recognition
             mainWindow.ListBox.ItemsSource = vs;
             mainWindow.Show();
 
+            itemLable.Content = databaseReader.lableInform(8);
+
         }
 
         
