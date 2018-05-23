@@ -33,7 +33,7 @@ namespace Hand_Written_Recognition
             Drawing drawing = new Drawing(); //For future 
             //MessageBox.Show(databaseReader.Database()); //debug function
 
-            byte[] vs = databaseReader.pixInfrom(); //Get data from database
+            byte[] vs = databaseReader.pixInfrom(0); //Get data from database
             Drawit(vs); //draw it out
 
             MainWindow mainWindow = new MainWindow();
@@ -49,6 +49,7 @@ namespace Hand_Written_Recognition
 
         private void Drawit(byte[] vs) //Draw out the image from the MINST database
         {
+            Can.Children.Clear();
             int mag = 10; //Scale Factor of image
             Can.Margin = new Thickness(0, 0, 0, 0); //Create new canvas object
             
@@ -97,6 +98,14 @@ namespace Hand_Written_Recognition
             re[1] = y;
             
             return re;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+          DatabaseReader databaseReader = new  DatabaseReader();
+          byte[] vs = databaseReader.pixInfrom(databaseReader.imageStreamPos);
+          Drawit(vs);
+            
         }
     }
 }

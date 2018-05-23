@@ -22,16 +22,17 @@ namespace Hand_Written_Recognition
     {
 
         byte[] pix { get; set; }
-        long imageStreamPos { get; set; }
+        public long imageStreamPos { get; set; }
         int lable { get; set; }
         int lableStreamPos { get; set; }
 
-        public byte[] pixInfrom()
+        public byte[] pixInfrom(long startPosition)
         {
             string filePath = @"train-images.idx3-ubyte"; //file path
             FileStream fileStream = new FileStream(filePath, FileMode.Open); //Setup FileStream
             BinaryReader binaryReader = new BinaryReader(fileStream); //Setup BytereaderStream
-           
+            fileStream.Seek(800,0);
+            
             //Starting Read Byte
 
             int magNumber = binaryReader.ReadInt32(); 
@@ -40,7 +41,7 @@ namespace Hand_Written_Recognition
             int colNumber = binaryReader.ReadInt32();
 
             //Reverse Byte
- 
+
             magNumber = ConvertBytes(magNumber);
             imgNumber = ConvertBytes(imgNumber);
             rowNumber = ConvertBytes(rowNumber);
@@ -50,7 +51,7 @@ namespace Hand_Written_Recognition
             int pixNumber = rowNumber * colNumber;
 
             //Test function
-            string r = "mag: " + magNumber.ToString() + "# img:" + imgNumber.ToString() + "# row:" + rowNumber.ToString() + "# col:" + colNumber.ToString() +"# pixnumber:" + pixNumber.ToString();
+            string r = "mag: " + magNumber.ToString() + "# img:" + imgNumber.ToString() + "# row:" + rowNumber.ToString() + "# col:" + colNumber.ToString() + "# pixnumber:" + pixNumber.ToString();
             MessageBox.Show(r);
 
 
@@ -64,6 +65,7 @@ namespace Hand_Written_Recognition
 
             imageStreamPos = fileStream.Position;
             fileStream.Close();
+            MessageBox.Show(imageStreamPos.ToString());
             return pixByte;
 
         }
@@ -94,5 +96,48 @@ namespace Hand_Written_Recognition
             Array.Reverse(inputByte);
             return BitConverter.ToInt32(inputByte, 0);
         }
+    }
+
+    class NewDatabaseReader
+    {
+        public long imageStreamLocation;
+        public long lableStreamLocation;
+
+        public byte[] readBytes()
+        {
+            string imagePath = @"train-images.idx3-ubyte";
+            string lablePath = @"train-labels.idx3-ubyte";
+            FileStream imageStream = new FileStream(imagePath,FileMode.Open);
+            FileStream lableStream = new FileStream(lablePath,FileMode.Open);
+            BinaryReader imageReader = new BinaryReader(imageStream);
+            BinaryReader lableReader = new BinaryReader(lableStream);
+
+            if (imageStream.Position == 0)
+            {
+
+            }
+            else
+            {
+
+            }
+
+            if (lableStream.Position == 0)
+            {
+
+            }
+            else
+            {
+
+            }
+
+        }
+
+        public int convertByte(int inputInt)
+        {
+            byte[] inputByte = BitConverter.GetBytes(inputInt);
+            Array.Reverse(inputByte);
+            return BitConverter.ToInt32(inputByte, 0);
+        }
+
     }
 }
