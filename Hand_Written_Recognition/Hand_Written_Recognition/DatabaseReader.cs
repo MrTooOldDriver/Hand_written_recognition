@@ -20,6 +20,12 @@ namespace Hand_Written_Recognition
 {
     class DatabaseReader
     {
+
+        byte[] pix { get; set; }
+        long imageStreamPos { get; set; }
+        int lable { get; set; }
+        int lableStreamPos { get; set; }
+
         public byte[] pixInfrom()
         {
             string filePath = @"train-images.idx3-ubyte"; //file path
@@ -56,6 +62,7 @@ namespace Hand_Written_Recognition
                 pixByte[counter] = binaryReader.ReadByte();
             }
 
+            imageStreamPos = fileStream.Position;
             fileStream.Close();
             return pixByte;
 
