@@ -23,14 +23,9 @@ namespace Hand_Written_Recognition
         public MainWindow()
         {
             InitializeComponent();
-            Window1 window = new Window1();
-            window.Show();
+            Window1 window = new Window1();            
         }
 
-        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
     }
 
      

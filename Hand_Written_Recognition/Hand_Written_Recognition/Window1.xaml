@@ -5,11 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hand_Written_Recognition"
         mc:Ignorable="d"
-        Title="Window1" Height="450" Width="800">
+        Title="Window1" Height="450" Width="997">
     <Grid>
-        <Button x:Name="StartButton" Content="start" HorizontalAlignment="Left" Margin="433,205,0,0" VerticalAlignment="Top" Width="332" Height="111" Click="StartButton_Click"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="558,216,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="StartButton" Content="start" HorizontalAlignment="Left" Margin="526,282,0,0" VerticalAlignment="Top" Width="239" Height="34" Click="StartButton_Click"/>
         <Canvas x:Name="Can" HorizontalAlignment="Left" Height="100" Margin="178,90,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label x:Name="itemLable" Content="Lable of number" HorizontalAlignment="Left" Margin="57,344,0,0" VerticalAlignment="Top" Height="33" Width="183" Background="#FFFFD9D9"/>
+        <Button Content="Next" HorizontalAlignment="Left" Margin="797,282,0,0" VerticalAlignment="Top" Width="127" Height="34" Click="Button_Click"/>
 
     </Grid>
 </Window>

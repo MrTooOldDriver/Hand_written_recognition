@@ -120,9 +120,14 @@
     <None Include="train-images.idx3-ubyte">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="train-labels.idx1-ubyte">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
