@@ -148,7 +148,7 @@ namespace Hand_Written_Recognition
                 }
 
                 imageStreamLocation = imageStream.Position;
-                MessageBox.Show(imageStream.Position.ToString());
+                //MessageBox.Show(imageStream.Position.ToString());
             }
 
             imageStream.Close();
@@ -173,7 +173,7 @@ namespace Hand_Written_Recognition
 
             lableStream.Close();
 
-            MessageBox.Show(lableStreamLocation + "and" + imageStreamLocation);
+            //MessageBox.Show(lableStreamLocation + "and" + imageStreamLocation);
 
             return pixInfo;
         }
