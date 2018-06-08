@@ -8,19 +8,30 @@ namespace Hand_Written_Recognition
 {
     using System.Runtime.InteropServices.WindowsRuntime;
     using System.Windows;
+    using System.Windows.Documents;
 
     class Network
     {
         public void NetworkStartPoint()
         {
-            
-            
+            this.initalInfo();
+            Neurons(4, cellinfo);
         }
 
         //Layer1 784 Neuron Input
         //Layer2 16 Neuron
         //Layer3 16 Neuron
         //Layer4 10 Neuron Output
+
+        int[] cellinfo = new int[4];
+        private void initalInfo()
+        {
+            this.cellinfo[0] = 784;
+            this.cellinfo[1] = 16;
+            this.cellinfo[2] = 16;
+            this.cellinfo[3] = 10;
+        }
+
 
         private double[][] Neurons(int LayerNumber,int[] Neutron)
         {
@@ -31,10 +42,20 @@ namespace Hand_Written_Recognition
                 double[][] initailDoubles = new double [LayerNumber][];
                 for (int i = 0; i < LayerNumber; i++)
                 {
+                    double[] inlayer = new double[Neutron[i]];
+                    for (int j = 0; j < Neutron[i]; j++)
+                    {
+                        inlayer[j] = 0;
 
+                    }
+
+                    initailDoubles[i] = inlayer;
                 }
 
-                return null;
+                MessageBox.Show(initailDoubles[3].Length.ToString());
+                return initailDoubles;
+                //Using Neutrons[][] to access cell
+                //Nutrons[0-3] is double[] contain cell number 
             }
             else
             {

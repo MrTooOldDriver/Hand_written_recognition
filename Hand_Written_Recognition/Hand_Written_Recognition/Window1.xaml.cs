@@ -86,5 +86,12 @@
             var vs_Position = vs.Length;
             this.itemLable.Content = vs[vs_Position - 1];
         }
+
+
+        private Network Network = new Network();
+        private void NetworkTest_Click(object sender, RoutedEventArgs e)
+        {
+            this.Network.NetworkStartPoint();
+        }
     }
 }
