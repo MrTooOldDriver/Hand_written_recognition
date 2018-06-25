@@ -59,7 +59,7 @@ namespace Hand_Written_Recognition
             }
             else
             {
-                MessageBox.Show("Error: Intput Layer number doesn't fir with Neutron[]");
+                MessageBox.Show("Error: Intput Layer number doesn't fit with Neutron[]");
                 return null;
             }
 
