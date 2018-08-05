@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Hand_Written_Recognition
 {
     using System.Runtime.InteropServices.WindowsRuntime;
+    using System.Security.Cryptography;
     using System.Windows;
     using System.Windows.Documents;
 
@@ -15,11 +16,11 @@ namespace Hand_Written_Recognition
         public void NetworkStartPoint()
         {
             this.initalInfo();
-            Neurons(4, cellinfo);
+            double[][] Network = Neurons(4, cellinfo);
         }
 
         //Layer1 784 Neuron Input
-        //Layer2 16 Neuron
+        //Layer2 16 Neuron 32?
         //Layer3 16 Neuron
         //Layer4 10 Neuron Output
 
@@ -64,5 +65,17 @@ namespace Hand_Written_Recognition
             }
 
         }
+
+        public void initalNumber(double[][] InputNetwork)
+        {
+            //Inital Network Number
+        }
+
+        public float randomAndConvert()
+        {
+            //random a number between 0 -100 and using e formula to convert it to 0 - 1 number 
+            //
+        }
     }
+
 }
