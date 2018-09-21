@@ -75,6 +75,7 @@ namespace Hand_Written_Recognition
         {
             //random a number between 0 -100 and using e formula to convert it to 0 - 1 number 
             //
+            return 1;
         }
     }
 

@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a44ce769-c5f7-4c03-b04d-3753f209dd74" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Hand_Written_Recognition.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Hand_Written_Recognition.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hand_Written_Recognition/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hand_Written_Recognition/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hand_Written_Recognition/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hand_Written_Recognition/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hand_Written_Recognition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hand_Written_Recognition/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hand_Written_Recognition/Network.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hand_Written_Recognition/Network.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hand_Written_Recognition/bin/Debug/Hand_Written_Recognition.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hand_Written_Recognition/bin/Debug/Hand_Written_Recognition.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hand_Written_Recognition/obj/Debug/Hand_Written_Recognition.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hand_Written_Recognition/obj/Debug/Hand_Written_Recognition.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,145 +34,80 @@
     </expand>
     <select />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="967084030">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="9" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Drawing.cs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Hand_Written_Recognition/Drawing.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <folding>
-                    <marker date="1526902445658" expanded="false" signature="6:348" ph="..." />
-                    <marker date="1526902445658" expanded="true" signature="384:535" ph="{...}" />
-                    <marker date="1526902445658" expanded="true" signature="404:533" ph="{...}" />
-                    <marker date="1526902445658" expanded="true" signature="482:527" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Window1.xaml.cs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Hand_Written_Recognition/Window1.xaml.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1020">
-                  <caret line="72" selection-start-line="72" selection-end-line="72" />
-                  <folding>
-                    <marker date="1528457447343" expanded="true" signature="34:3123" ph="{...}" />
-                    <marker date="1528457447343" expanded="false" signature="47:180" ph="..." />
-                    <marker date="1528457447343" expanded="true" signature="186:265" ph="///     Interaction logic for Window1.xaml ... " />
-                    <marker date="1528457447343" expanded="true" signature="307:3121" ph="{...}" />
-                    <marker date="1528457447343" expanded="true" signature="518:578" ph="{...}" />
-                    <marker date="1528457447343" expanded="true" signature="639:1021" ph="{...}" />
-                    <marker date="1528457447343" expanded="true" signature="1061:2333" ph="{...}" />
-                    <marker date="1528457447343" expanded="true" signature="1369:2323" ph="{...}" />
-                    <marker date="1528457447343" expanded="true" signature="1677:1851" ph="/* Test Function ... */" />
-                    <marker date="1528457447343" expanded="true" signature="2407:2925" ph="{...}" />
-                    <marker date="1528457447343" expanded="true" signature="2685:2816" ph="/* MainWindow mainWindow = new MainWindow(); ... */" />
-                    <marker date="1528457447343" expanded="true" signature="3049:3115" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DatabaseReader.cs" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Hand_Written_Recognition/DatabaseReader.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="745">
-                  <caret line="145" column="16" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="16" />
-                  <folding>
-                    <marker date="1527172566543" expanded="false" signature="6:441" ph="..." />
-                    <marker date="1527172566543" expanded="true" signature="478:6297" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="505:3299" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="720:2296" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="2030:2118" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="2345:3041" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="3091:3293" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="3329:6295" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="3521:6065" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="4031:4810" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="4642:4735" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="4827:5236" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="5000:5093" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="5313:5685" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="5702:5909" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="6111:6288" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="DatabaseReader.cs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Hand_Written_Recognition/DatabaseReader.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1545">
-                  <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
-                  <folding>
-                    <marker date="1527172566543" expanded="false" signature="6:441" ph="..." />
-                    <marker date="1527172566543" expanded="true" signature="478:6297" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="505:3299" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="720:2296" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="2030:2118" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="2345:3041" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="3091:3293" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="3329:6295" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="3521:6065" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="4031:4810" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="4642:4735" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="4827:5236" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="5000:5093" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="5313:5685" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="5702:5909" ph="{...}" />
-                    <marker date="1527172566543" expanded="true" signature="6111:6288" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Network.cs" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Hand_Written_Recognition/Network.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-                  <folding>
-                    <marker date="1529321142781" expanded="true" signature="6:115" ph="..." />
-                    <marker date="1529321142781" expanded="true" signature="151:1759" ph="{...}" />
-                    <marker date="1529321142781" expanded="true" signature="164:272" ph="..." />
-                    <marker date="1529321142781" expanded="true" signature="291:1757" ph="{...}" />
-                    <marker date="1529321142781" expanded="true" signature="337:422" ph="{...}" />
-                    <marker date="1529321142781" expanded="true" signature="432:545" ph="/* Layer1 784 Neuron Input ... */" />
-                    <marker date="1529321142781" expanded="true" signature="617:778" ph="{...}" />
-                    <marker date="1529321142781" expanded="true" signature="846:1751" ph="{...}" />
-                    <marker date="1529321142781" expanded="true" signature="903:1576" ph="{...}" />
-                    <marker date="1529321142781" expanded="true" signature="1045:1336" ph="{...}" />
-                    <marker date="1529321142781" expanded="true" signature="1183:1268" ph="{...}" />
-                    <marker date="1529321142781" expanded="true" signature="1463:1562" ph="/* Using Neutrons[][] to access cell ... */" />
-                    <marker date="1529321142781" expanded="true" signature="1593:1740" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Hand_Written_Recognition/Network.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="68" column="27" lean-forward="true" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
+              <folding>
+                <marker date="1537522818195" expanded="false" signature="6:115" ph="..." />
+                <marker date="1537522818195" expanded="true" signature="151:2134" ph="{...}" />
+                <marker date="1537522818195" expanded="false" signature="164:312" ph="..." />
+                <marker date="1537522818195" expanded="true" signature="331:2131" ph="{...}" />
+                <marker date="1537522818195" expanded="true" signature="377:483" ph="{...}" />
+                <marker date="1537522818195" expanded="true" signature="493:610" ph="/* Layer1 784 Neuron Input ... */" />
+                <marker date="1537522818195" expanded="true" signature="682:843" ph="{...}" />
+                <marker date="1537522818195" expanded="true" signature="911:1816" ph="{...}" />
+                <marker date="1537522818195" expanded="true" signature="968:1641" ph="{...}" />
+                <marker date="1537522818195" expanded="true" signature="1110:1401" ph="{...}" />
+                <marker date="1537522818195" expanded="true" signature="1248:1333" ph="{...}" />
+                <marker date="1537522818195" expanded="true" signature="1528:1627" ph="/* Using Neutrons[][] to access cell ... */" />
+                <marker date="1537522818195" expanded="true" signature="1658:1805" ph="{...}" />
+                <marker date="1537522818195" expanded="true" signature="1875:1931" ph="{...}" />
+                <marker date="1537522818195" expanded="true" signature="1972:2125" ph="{...}" />
+                <marker date="1537522818195" expanded="true" signature="1995:2093" ph="/* random a number between 0 -100 and using e formula to convert it to 0 - 1 number ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Hand_Written_Recognition/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Hand_Written_Recognition/Window1.xaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hand_Written_Recognition/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hand_Written_Recognition/DebugTool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hand_Written_Recognition/Drawing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hand_Written_Recognition/Network.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hand_Written_Recognition/Window1.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hand_Written_Recognition/DatabaseReader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Hand_Written_Recognition/Network.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hand_Written_Recognition/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hand_Written_Recognition/Window1.xaml.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -196,36 +135,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
             <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Hand_Written_Recognition (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Hand_Written_Recognition" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Hand_Written_Recognition (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Hand_Written_Recognition" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Hand_Written_Recognition (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Hand_Written_Recognition" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="App.xaml" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Hand_Written_Recognition (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Hand_Written_Recognition" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="MainWindow.xaml" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Hand_Written_Recognition" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Hand_Written_Recognition" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
         </subPane>
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
+        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -234,7 +160,7 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Hand_Written_Recognition/Network.cs" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -283,11 +209,13 @@
       <workItem from="1527155943041" duration="124000" />
       <workItem from="1528456751062" duration="422000" />
       <workItem from="1529917577001" duration="48000" />
+      <workItem from="1537522674546" duration="143000" />
+      <workItem from="1537522899933" duration="61000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1940000" />
+    <option name="totallyTimeSpent" value="2144000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -301,29 +229,30 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1935" height="1175" extended-state="6" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" order="3" weight="0.3296" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Unit Tests" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32916266" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="NuGet" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26026666" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3296" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26613334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39942253" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32821497" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39942253" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Unit Tests" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.32821497" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32916266" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" weight="0.3296" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3296" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,6 +261,16 @@
   <component name="UnityProjectConfiguration" isUnityUI="false" />
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -343,294 +282,44 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Hand_Written_Recognition/Drawing.cs">
+    <entry file="file://$PROJECT_DIR$/Hand_Written_Recognition/DatabaseReader.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1526902445658" expanded="false" signature="6:348" ph="..." />
-            <marker date="1526902445658" expanded="true" signature="384:535" ph="{...}" />
-            <marker date="1526902445658" expanded="true" signature="404:533" ph="{...}" />
-            <marker date="1526902445658" expanded="true" signature="482:527" ph="{...}" />
-          </folding>
+        <state relative-caret-position="745">
+          <caret line="145" column="16" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Hand_Written_Recognition/Window1.xaml.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
+        <state relative-caret-position="985">
           <caret line="72" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <marker date="1528457447343" expanded="true" signature="34:3123" ph="{...}" />
-            <marker date="1528457447343" expanded="false" signature="47:180" ph="..." />
-            <marker date="1528457447343" expanded="true" signature="186:265" ph="///     Interaction logic for Window1.xaml ... " />
-            <marker date="1528457447343" expanded="true" signature="307:3121" ph="{...}" />
-            <marker date="1528457447343" expanded="true" signature="518:578" ph="{...}" />
-            <marker date="1528457447343" expanded="true" signature="639:1021" ph="{...}" />
-            <marker date="1528457447343" expanded="true" signature="1061:2333" ph="{...}" />
-            <marker date="1528457447343" expanded="true" signature="1369:2323" ph="{...}" />
-            <marker date="1528457447343" expanded="true" signature="1677:1851" ph="/* Test Function ... */" />
-            <marker date="1528457447343" expanded="true" signature="2407:2925" ph="{...}" />
-            <marker date="1528457447343" expanded="true" signature="2685:2816" ph="/* MainWindow mainWindow = new MainWindow(); ... */" />
-            <marker date="1528457447343" expanded="true" signature="3049:3115" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hand_Written_Recognition/DatabaseReader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1770">
-          <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
-          <folding>
-            <marker date="1527172566543" expanded="false" signature="6:441" ph="..." />
-            <marker date="1527172566543" expanded="true" signature="478:6297" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="505:3299" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="720:2296" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="2030:2118" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="2345:3041" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="3091:3293" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="3329:6295" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="3521:6065" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="4031:4810" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="4642:4735" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="4827:5236" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="5000:5093" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="5313:5685" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="5702:5909" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="6111:6288" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Hand_Written_Recognition/Drawing.cs">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Hand_Written_Recognition/Network.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="697">
+          <caret line="68" column="27" lean-forward="true" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
           <folding>
-            <marker date="1529321142781" expanded="true" signature="6:115" ph="..." />
-            <marker date="1529321142781" expanded="true" signature="151:1759" ph="{...}" />
-            <marker date="1529321142781" expanded="true" signature="164:272" ph="..." />
-            <marker date="1529321142781" expanded="true" signature="291:1757" ph="{...}" />
-            <marker date="1529321142781" expanded="true" signature="337:422" ph="{...}" />
-            <marker date="1529321142781" expanded="true" signature="432:545" ph="/* Layer1 784 Neuron Input ... */" />
-            <marker date="1529321142781" expanded="true" signature="617:778" ph="{...}" />
-            <marker date="1529321142781" expanded="true" signature="846:1751" ph="{...}" />
-            <marker date="1529321142781" expanded="true" signature="903:1576" ph="{...}" />
-            <marker date="1529321142781" expanded="true" signature="1045:1336" ph="{...}" />
-            <marker date="1529321142781" expanded="true" signature="1183:1268" ph="{...}" />
-            <marker date="1529321142781" expanded="true" signature="1463:1562" ph="/* Using Neutrons[][] to access cell ... */" />
-            <marker date="1529321142781" expanded="true" signature="1593:1740" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hand_Written_Recognition/Drawing.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1526902445658" expanded="false" signature="6:348" ph="..." />
-            <marker date="1526902445658" expanded="true" signature="384:535" ph="{...}" />
-            <marker date="1526902445658" expanded="true" signature="404:533" ph="{...}" />
-            <marker date="1526902445658" expanded="true" signature="482:527" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hand_Written_Recognition/Window1.xaml.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hand_Written_Recognition/DatabaseReader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1770">
-          <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
-          <folding>
-            <marker date="1527172566543" expanded="false" signature="6:441" ph="..." />
-            <marker date="1527172566543" expanded="true" signature="478:6297" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="505:3299" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="720:2296" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="2030:2118" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="2345:3041" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="3091:3293" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="3329:6295" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="3521:6065" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="4031:4810" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="4642:4735" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="4827:5236" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="5000:5093" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="5313:5685" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="5702:5909" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="6111:6288" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hand_Written_Recognition/Drawing.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1526902445658" expanded="false" signature="6:348" ph="..." />
-            <marker date="1526902445658" expanded="true" signature="384:535" ph="{...}" />
-            <marker date="1526902445658" expanded="true" signature="404:533" ph="{...}" />
-            <marker date="1526902445658" expanded="true" signature="482:527" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hand_Written_Recognition/Window1.xaml.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hand_Written_Recognition/DatabaseReader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
-          <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
-          <folding>
-            <marker date="1527172566543" expanded="false" signature="6:441" ph="..." />
-            <marker date="1527172566543" expanded="true" signature="478:6297" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="505:3299" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="720:2296" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="2030:2118" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="2345:3041" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="3091:3293" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="3329:6295" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="3521:6065" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="4031:4810" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="4642:4735" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="4827:5236" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="5000:5093" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="5313:5685" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="5702:5909" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="6111:6288" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hand_Written_Recognition/Drawing.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1526902445658" expanded="false" signature="6:348" ph="..." />
-            <marker date="1526902445658" expanded="true" signature="384:535" ph="{...}" />
-            <marker date="1526902445658" expanded="true" signature="404:533" ph="{...}" />
-            <marker date="1526902445658" expanded="true" signature="482:527" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hand_Written_Recognition/Window1.xaml.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hand_Written_Recognition/DatabaseReader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="33" column="59" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="60" />
-          <folding>
-            <marker date="1527172566543" expanded="false" signature="6:441" ph="..." />
-            <marker date="1527172566543" expanded="true" signature="478:6297" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="505:3299" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="720:2296" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="2030:2118" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="2345:3041" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="3091:3293" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="3329:6295" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="3521:6065" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="4031:4810" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="4642:4735" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="4827:5236" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="5000:5093" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="5313:5685" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="5702:5909" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="6111:6288" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hand_Written_Recognition/Drawing.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1526902445658" expanded="false" signature="6:348" ph="..." />
-            <marker date="1526902445658" expanded="true" signature="384:535" ph="{...}" />
-            <marker date="1526902445658" expanded="true" signature="404:533" ph="{...}" />
-            <marker date="1526902445658" expanded="true" signature="482:527" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hand_Written_Recognition/Window1.xaml.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <marker date="1528457447343" expanded="true" signature="34:3123" ph="{...}" />
-            <marker date="1528457447343" expanded="false" signature="47:180" ph="..." />
-            <marker date="1528457447343" expanded="true" signature="186:265" ph="///     Interaction logic for Window1.xaml ... " />
-            <marker date="1528457447343" expanded="true" signature="307:3121" ph="{...}" />
-            <marker date="1528457447343" expanded="true" signature="518:578" ph="{...}" />
-            <marker date="1528457447343" expanded="true" signature="639:1021" ph="{...}" />
-            <marker date="1528457447343" expanded="true" signature="1061:2333" ph="{...}" />
-            <marker date="1528457447343" expanded="true" signature="1369:2323" ph="{...}" />
-            <marker date="1528457447343" expanded="true" signature="1677:1851" ph="/* Test Function ... */" />
-            <marker date="1528457447343" expanded="true" signature="2407:2925" ph="{...}" />
-            <marker date="1528457447343" expanded="true" signature="2685:2816" ph="/* MainWindow mainWindow = new MainWindow(); ... */" />
-            <marker date="1528457447343" expanded="true" signature="3049:3115" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hand_Written_Recognition/DatabaseReader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
-          <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
-          <folding>
-            <marker date="1527172566543" expanded="false" signature="6:441" ph="..." />
-            <marker date="1527172566543" expanded="true" signature="478:6297" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="505:3299" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="720:2296" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="2030:2118" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="2345:3041" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="3091:3293" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="3329:6295" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="3521:6065" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="4031:4810" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="4642:4735" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="4827:5236" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="5000:5093" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="5313:5685" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="5702:5909" ph="{...}" />
-            <marker date="1527172566543" expanded="true" signature="6111:6288" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hand_Written_Recognition/Network.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding>
-            <marker date="1529321142781" expanded="true" signature="6:115" ph="..." />
-            <marker date="1529321142781" expanded="true" signature="151:1759" ph="{...}" />
-            <marker date="1529321142781" expanded="true" signature="164:272" ph="..." />
-            <marker date="1529321142781" expanded="true" signature="291:1757" ph="{...}" />
-            <marker date="1529321142781" expanded="true" signature="337:422" ph="{...}" />
-            <marker date="1529321142781" expanded="true" signature="432:545" ph="/* Layer1 784 Neuron Input ... */" />
-            <marker date="1529321142781" expanded="true" signature="617:778" ph="{...}" />
-            <marker date="1529321142781" expanded="true" signature="846:1751" ph="{...}" />
-            <marker date="1529321142781" expanded="true" signature="903:1576" ph="{...}" />
-            <marker date="1529321142781" expanded="true" signature="1045:1336" ph="{...}" />
-            <marker date="1529321142781" expanded="true" signature="1183:1268" ph="{...}" />
-            <marker date="1529321142781" expanded="true" signature="1463:1562" ph="/* Using Neutrons[][] to access cell ... */" />
-            <marker date="1529321142781" expanded="true" signature="1593:1740" ph="{...}" />
+            <marker date="1537522818195" expanded="false" signature="6:115" ph="..." />
+            <marker date="1537522818195" expanded="true" signature="151:2134" ph="{...}" />
+            <marker date="1537522818195" expanded="false" signature="164:312" ph="..." />
+            <marker date="1537522818195" expanded="true" signature="331:2131" ph="{...}" />
+            <marker date="1537522818195" expanded="true" signature="377:483" ph="{...}" />
+            <marker date="1537522818195" expanded="true" signature="493:610" ph="/* Layer1 784 Neuron Input ... */" />
+            <marker date="1537522818195" expanded="true" signature="682:843" ph="{...}" />
+            <marker date="1537522818195" expanded="true" signature="911:1816" ph="{...}" />
+            <marker date="1537522818195" expanded="true" signature="968:1641" ph="{...}" />
+            <marker date="1537522818195" expanded="true" signature="1110:1401" ph="{...}" />
+            <marker date="1537522818195" expanded="true" signature="1248:1333" ph="{...}" />
+            <marker date="1537522818195" expanded="true" signature="1528:1627" ph="/* Using Neutrons[][] to access cell ... */" />
+            <marker date="1537522818195" expanded="true" signature="1658:1805" ph="{...}" />
+            <marker date="1537522818195" expanded="true" signature="1875:1931" ph="{...}" />
+            <marker date="1537522818195" expanded="true" signature="1972:2125" ph="{...}" />
+            <marker date="1537522818195" expanded="true" signature="1995:2093" ph="/* random a number between 0 -100 and using e formula to convert it to 0 - 1 number ... */" />
           </folding>
         </state>
       </provider>
