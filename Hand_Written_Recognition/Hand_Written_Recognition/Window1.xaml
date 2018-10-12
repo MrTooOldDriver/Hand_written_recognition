@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="997">
     <Grid>
-        <Button x:Name="StartButton" Content="start" HorizontalAlignment="Left" Margin="526,282,0,0" VerticalAlignment="Top" Width="239" Height="34" Click="StartButton_Click"/>
+        <Button x:Name="StartButton" Content="Read the database" HorizontalAlignment="Left" Margin="504,340,0,0" VerticalAlignment="Top" Width="239" Height="34" Click="StartButton_Click"/>
         <Canvas x:Name="Can" HorizontalAlignment="Left" Height="100" Margin="178,90,0,0" VerticalAlignment="Top" Width="100"/>
-        <Label x:Name="itemLable" Content="Lable of number" HorizontalAlignment="Left" Margin="57,344,0,0" VerticalAlignment="Top" Height="33" Width="183" Background="#FFFFD9D9"/>
-        <Button Content="Next" HorizontalAlignment="Left" Margin="797,282,0,0" VerticalAlignment="Top" Width="127" Height="34" Click="Button_Click"/>
+        <Label x:Name="itemLable" Content="Lable of number" HorizontalAlignment="Left" Margin="57,340,0,0" VerticalAlignment="Top" Height="34" Width="183" Background="#FFFFD9D9"/>
+        <Button x:Name="NetworkTest" Content="Network test" HorizontalAlignment="Left" Margin="790,340,0,0" VerticalAlignment="Top" Width="150" Height="34" Click="NetworkTest_Click"/>
 
     </Grid>
 </Window>

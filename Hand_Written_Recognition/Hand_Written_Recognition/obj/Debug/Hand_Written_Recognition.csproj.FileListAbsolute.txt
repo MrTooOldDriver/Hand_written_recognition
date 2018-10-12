@@ -15,5 +15,5 @@ C:\Users\Hantao Zhong\Documents\GitHub\Hand_written_recognition\Hand_Written_Rec
 C:\Users\Hantao Zhong\Documents\GitHub\Hand_written_recognition\Hand_Written_Recognition\Hand_Written_Recognition\obj\Debug\Hand_Written_Recognition.pdb
 C:\Users\Hantao Zhong\Documents\GitHub\Hand_written_recognition\Hand_Written_Recognition\Hand_Written_Recognition\obj\Debug\Window1.g.cs
 C:\Users\Hantao Zhong\Documents\GitHub\Hand_written_recognition\Hand_Written_Recognition\Hand_Written_Recognition\obj\Debug\Window1.baml
-C:\Users\Hantao Zhong\Documents\GitHub\Hand_written_recognition\Hand_Written_Recognition\Hand_Written_Recognition\obj\Debug\Hand_Written_Recognition.csprojAssemblyReference.cache
 C:\Users\Hantao Zhong\Documents\GitHub\Hand_written_recognition\Hand_Written_Recognition\Hand_Written_Recognition\bin\Debug\train-labels.idx1-ubyte
+C:\Users\Hantao Zhong\Documents\GitHub\Hand_written_recognition\Hand_Written_Recognition\Hand_Written_Recognition\obj\Debug\Hand_Written_Recognition.csprojAssemblyReference.cache
