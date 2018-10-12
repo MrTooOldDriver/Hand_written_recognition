@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,6 +26,7 @@ namespace Hand_Written_Recognition
         //Layer4 10 Neuron Output
 
         int[] cellinfo = new int[4];
+        
         private void initalInfo()
         {
             this.cellinfo[0] = 784;
@@ -55,8 +57,8 @@ namespace Hand_Written_Recognition
 
                 MessageBox.Show(initailDoubles[3].Length.ToString());
                 return initailDoubles;
-                //Using Neutrons[][] to access cell
-                //Nutrons[0-3] is double[] contain cell number 
+                //Using Neuron[][] to access cell
+                //Neuron[0-3] is double[] contain cell number 
             }
             else
             {
@@ -71,11 +73,21 @@ namespace Hand_Written_Recognition
             //Inital Network Number
         }
 
-        public float randomAndConvert()
+        public double randomAndConvert()
         {
-            //random a number between 0 -100 and using e formula to convert it to 0 - 1 number 
+            //random a number between -100 - 0 -100 and using e formula to convert it to 0 - 1 number 
             //
+            
             return 1;
+        }
+
+        public double sigmoid(double input_number)
+        {
+            input_number = -input_number;
+            double s = Math.Pow(Math.E, input_number);
+            s = 1 + s;
+            s = 1 / s;
+            return s;
         }
     }
 
